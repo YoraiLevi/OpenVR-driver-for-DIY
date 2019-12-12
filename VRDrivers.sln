@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_sample", "VIrtualVRDriver\driver_sample.vcxproj", "{A47C788B-1BDA-4057-87A9-FC35ED711B44}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPCSocketDriver", "emulated_drivers\IPCSocketDriver\IPCSocketDriver.vcxproj", "{A47C788B-1BDA-4057-87A9-FC35ED711B44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_sample", "emulated_drivers\KeyboardDriver\driver_sample.vcxproj", "{AA3707E9-75F0-4FE2-8FEC-298A45D65260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,11 +23,19 @@ Global
 		{A47C788B-1BDA-4057-87A9-FC35ED711B44}.Release|x64.Build.0 = Release|x64
 		{A47C788B-1BDA-4057-87A9-FC35ED711B44}.Release|x86.ActiveCfg = Release|Win32
 		{A47C788B-1BDA-4057-87A9-FC35ED711B44}.Release|x86.Build.0 = Release|Win32
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Debug|x64.ActiveCfg = Debug|x64
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Debug|x64.Build.0 = Debug|x64
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Debug|x86.Build.0 = Debug|Win32
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Release|x64.ActiveCfg = Release|x64
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Release|x64.Build.0 = Release|x64
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Release|x86.ActiveCfg = Release|Win32
+		{AA3707E9-75F0-4FE2-8FEC-298A45D65260}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4D633905-823B-4F1B-8BC7-DF757D06500C}
+		SolutionGuid = {14036A3F-1190-4BBC-969E-6AAC6858FA00}
 	EndGlobalSection
 EndGlobal
