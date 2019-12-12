@@ -159,10 +159,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="driverlog.cpp" />
-    <ClCompile Include="driver_sample.cpp" />
+    <ClCompile Include="driver_virtual.cpp" />
+    <ClCompile Include="ServerDriver.cpp" />
+    <ClCompile Include="VirtualCameraDriver.cpp" />
+    <ClCompile Include="VirtualControllerDriver.cpp" />
+    <ClCompile Include="Watchdog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="driverlog.h" />
+    <ClInclude Include="ServerDriver.h" />
+    <ClInclude Include="VirtualCameraDriver.h" />
+    <ClInclude Include="VirtualControllerDriver.h" />
+    <ClInclude Include="Watchdog.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
