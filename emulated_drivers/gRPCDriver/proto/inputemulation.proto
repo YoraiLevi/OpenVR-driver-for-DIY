@@ -1,11 +1,11 @@
 syntax = "proto3";
-package gRPCServices.Driver;
-import "include/pose.proto";
+package gRPCServices;
+import "pose.proto";
 import "google/protobuf/empty.proto";
 
 message AttachMessage {
 enum Device {
-    UNKNOWN_DEVICE = 0;
+    UNSPECIFIED = 0;
     HMD = 1;
     TRACKER = 2;
     CONTROLLER = 3;
